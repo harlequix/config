@@ -1,0 +1,2 @@
+export NODE_PATH=~/.local/node_modules 
+export PATH=$PATH:/home/jack/.local/node_modules/bin/

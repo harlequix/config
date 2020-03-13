@@ -1,0 +1,6 @@
+env_folder=$HOME/.env.d
+setopt NULL_GLOB;
+for config in $env_folder/*.enabled; do
+    source $config
+done;
+ unsetopt NULL_GLOB;
